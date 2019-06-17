@@ -1,0 +1,700 @@
+[
+  {
+    "id": 1,
+    "title":"Links",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "tags": "html, CSS, JavaScript",
+    "welcome": [
+      {
+        "sequenceNumber": 1,
+        "description": "<p>Hello and welcome!</p><p>I'm your guide to</p><p> your first steps in CSS styles</p>",
+        "images": [
+        ]
+      },
+      {
+        "sequenceNumber": 2,
+        "description": "<p>Watch the CSS code</p><p>Did you know that you can change the background color? Let's try it using:</p><pre>background-color: #8ce2ea;</pre><p>When you feel your code is ready, always remember to press the RUN button.</p>",
+        "images": [
+        ]
+      }
+    ],
+    "editors": {
+      "HTML": {
+        "grammar": "HTML",
+        "file": "first/index.html",
+        "challenges": [
+          {
+            "code": {
+              "selector": "div.container > h1",
+              "text": "project"
+            },
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": {
+              "selector":  "input[type=text]"
+            },
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><pre>&lt;input type=\"text\"&gt;</pre>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "CSS": {
+        "grammar": "CSS",
+        "file": "first/styles.css",
+        "challenges": [
+          {
+            "code": "body {\n  background-color: #8ce2ea;\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The correct color code should be #8ce2ea</p><pre>background-color: #8ce2ea;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Not quite there yet.  Try again.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Now you're ready to try and change the color of the text.  Try this:</p><pre>color: #ffffff;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The correct color code is not there yet.</p><pre>color: #ffffff;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Oops! Please try one more time.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Looks like you are ready to change the text size with:</p><pre>font-size: 50px;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Right now the font size is still not 50px. Can you make it that size?</p><pre>font-size: 50px;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Looks like you're having trouble.  You can modify the font size inside the h1 selector.  Do you see where that is in the code panel?</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Good!  Now try to justify the text to the center adding this property:</p><pre>text-align: center;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;\ntext-align: center;}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The justification is still not correct. Please justify the text to the center. Use the following code:</p><pre>text-align: center;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Still something's missing. You can change the justification of the text inside the h1 selector.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Now let`s try something fun. Let`s turn the text upside-down.  Use:</p><pre>transform: rotate(-180deg);</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;\ntext-align: center;\ntransform: rotate(-180deg);\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Let'st try again.  Remember we want to turn the text upside-down inside the selector:</p><pre>h1 {\n  ...\n}</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Not quite there yet... try adding this property and make sure that the code text is complete:</p><pre>transform: rotate(-180deg);</pre>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Success 1 CSS 5",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Press HOME to continue learning!</p><button class=\"btn-home\"></button>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Error 1 CSS 5",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "JavaScript": {
+        "grammar": "JavaScript",
+        "file": "first/script.js",
+        "challenges": [
+          {
+            "code": "console.log(\"Hello world!\");",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "console.log(\"Hello world!\");",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><pre>&lt;input type=\"text\"&gt;</pre>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "character": {
+      "name": "Tecly",
+      "image": ""
+    }
+  },
+  {
+    "id": 2,
+    "title":"Links",
+    "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "tags": "html, CSS, JavaScript",
+    "welcome": [
+      {
+        "sequenceNumber": 1,
+        "description": "<p>Hello and welcome!</p><p>I'm your guide to</p><p> your first steps in CSS styles</p>",
+        "images": [
+        ]
+      },
+      {
+        "sequenceNumber": 2,
+        "description": "<p>Watch the CSS code</p><p>Did you know that you can change the background color? Let's try it using:</p><pre>background-color: #8ce2ea;</pre><p>When you feel your code is ready, always remember to press the RUN button.</p>",
+        "images": [
+        ]
+      }
+    ],
+    "editors": {
+      "HTML": {
+        "grammar": "HTML",
+        "file": "second/index.html",
+        "challenges": [
+          {
+            "code": "<p>Hello Andres!</p>",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "<strong>Hello Andres!</strong>",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Hi, its me!</p><p>I'm your guide to:</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              },
+              {
+                "title": "Hint 3",
+                "sequenceNumber": 3,
+                "description": "<p>Lorem ipsum dolor et amet, ut dolore magna sit labore aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+                "images": [
+                ]
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "CSS": {
+        "grammar": "CSS",
+        "file": "second/styles.css",
+        "challenges": [
+          {
+            "code": "body {\n  background-color: #8ce2ea;\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The correct color code should be #8ce2ea</p><pre>background-color: #8ce2ea;</<pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Not quite there yet.  Try again.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Now you're ready to try and change the color of the text.  Try this:</p><pre>color: #ffffff;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The correct color code is not there yet.</p><pre>color: #ffffff;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Oops! Please try one more time.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Looks like you are ready to change the text size with:</p><pre>font-size: 50px;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Right now the font size is still not 50px. Can you make it that size?</p><pre>font-size: 50px;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Looks like you're having trouble.  You can modify the font size inside the h1 selector.  Do you see where that is in the code panel?</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Good!  Now try to justify the text to the center adding this property:</p><pre>text-align: center;</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;\ntext-align: center;}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>The justification is still not correct. Please justify the text to the center. Use the following code:</p><pre>text-align: center;</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Still something's missing. You can change the justification of the text inside the h1 selector.</p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Now let`s try something fun. Let`s turn the text upside-down.  Use:</p><pre>transform: rotate(-180deg);</pre>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          },
+          {
+            "code": "h1 {\ncolor: #ffffff;\nfont-size: 50px;\ntext-align: center;\ntransform: rotate(-180deg);\n}",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Let'st try again.  Remember we want to turn the text upside-down inside the selector:</p><pre>h1 {\n  ...\n}</pre>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Not quite there yet... try adding this property and make sure that the code text is complete:</p><pre>transform: rotate(-180deg);</pre>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!</p><p>Press HOME to continue learning!</p><button class=\"btn-home\"></button>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "JavaScript": {
+        "grammar": "JavaScript",
+        "file": "second/script.js",
+        "challenges": [
+          {
+            "code": "console.log('hello world');",
+            "hints": [
+              {
+                "title": "Hint 1",
+                "sequenceNumber": 1,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<button class=\"btn-home\"></button></p>"
+              },
+              {
+                "title": "Hint 2",
+                "sequenceNumber": 2,
+                "description": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<button class=\"btn-home\"></button></p>"
+              }
+            ],
+            "messagesSuccess": [
+              {
+                "title": "Title Success 1",
+                "sequenceNumber": 1,
+                "description": "<p>Congratulations!</p><p>You've made it!!</p>"
+              }
+            ],
+            "messagesError": [
+              {
+                "title": "Title error",
+                "sequenceNumber": 1,
+                "description": "<p>Something is not right.</p>",
+                "images": [
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "character": {
+      "name": "Tecly",
+      "image": ""
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "name": "platform-controller",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "HackTML package",
+  "repository": "https://github.com/atom/atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "consumedServices": {
+    "browser-plus": {
+      "versions": {
+        ">=0.0.0": "consumeRefreshPage"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "cheerio": "^1.0.0-rc.3",
+    "esprima": "^4.0.1",
+    "fuzzaldrin": "^2.1.0",
+    "htmlhint": "^0.9.12",
+    "jslint": "^0.12.1",
+    "loophole": "^1.0.0",
+    "stylelint": "^10.1.0",
+    "sub-atom": "*",
+    "underscore-plus": "1.x",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  }
+}
