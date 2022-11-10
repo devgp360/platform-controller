@@ -20,7 +20,7 @@
     "cheerio": "^1.0.0-rc.3",
     "esprima": "^4.0.1",
     "fuzzaldrin": "^2.1.0",
-    "htmlhint": "^0.9.12",
+    "htmlhint": "^1.1.4",
     "jslint": "^0.12.1",
     "loophole": "^1.0.0",
     "stylelint": "^10.1.0",
